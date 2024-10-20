@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "./about.module.css";
+import Link from "react-router-dom";
 
 const About = () => {
   return (
@@ -27,9 +28,9 @@ const About = () => {
           </p>
         </div>
         <div>
-          <a href="">
-            <button className={classes.about_btn}>HOW IT WORKS</button>
-          </a>
+          <button className={classes.about_btn}>
+            <Link to="/how-it-works">How it works</Link>
+          </button>
         </div>
       </section>
     </section>
