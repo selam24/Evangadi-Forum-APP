@@ -28,9 +28,9 @@ const About = () => {
           </p>
         </div>
         <div>
-          <button className={classes.about_btn}>
-            <Link to="/how-it-works">How it works</Link>
-          </button>
+          <Link to="/how-it-works">
+            <button className={classes.about_btn}>How it works</button>
+          </Link>
         </div>
       </section>
     </section>
