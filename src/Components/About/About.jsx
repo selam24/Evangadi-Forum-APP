@@ -1,6 +1,5 @@
 import React from "react";
 import classes from "./about.module.css";
-import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -28,8 +27,8 @@ const About = () => {
           </p>
         </div>
         <div>
-          <a href="/how-it-works" className={classes.about_btn}>
-            How it works
+          <a href="/how-it-works">
+            <button className={classes.about_btn}>HOW IT WORKS</button>
           </a>
         </div>
       </section>
