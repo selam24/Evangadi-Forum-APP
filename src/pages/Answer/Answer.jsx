@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import classes from "../Answer/answer.module.css";
+import classes from "./answer.module.css";
 import { IoMdContact } from "react-icons/io";
 import instance from "../../Api/axios";
 import { useParams } from "react-router-dom";
