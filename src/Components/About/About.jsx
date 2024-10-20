@@ -27,7 +27,7 @@ const About = () => {
           </p>
         </div>
         <div>
-          <a href="/how-it-works">
+          <a href="/HowItWorks">
             <button className={classes.about_btn}>HOW IT WORKS</button>
           </a>
         </div>
