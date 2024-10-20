@@ -32,7 +32,7 @@ const SignUp = ({ visible }) => {
     }
 
     try {
-      const response = await axios.post("users/register", {
+      const response = await axios.post("/users/register", {
         username: userName,
         first_name: firstName,
         last_name: lastName,
