@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleDown } from "@fortawesome/free-solid-svg-icons";
 import axios from "../../Api/axios";
 import { ClipLoader } from "react-spinners";
+import { useNavigate} from "react-router-dom"
 
 const Question = () => {
   const [alertMessage, setAlertMessage] = useState(""); // Alert message state
@@ -38,6 +39,7 @@ const Question = () => {
       setIsLoading(false);
       setAlertMessage("Your question was posted successfully!");
       setAlertType("success");
+      useNavigate("/");
     } catch (error) {
       setIsLoading(false);
       console.log(error.response);
